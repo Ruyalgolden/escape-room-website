@@ -1,0 +1,137 @@
+body {
+    margin: 0px;
+    background-image: url("/bg.gif");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    flex-direction: row;
+    overflow:hidden;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+}
+
+.font {
+    color: white;
+    font-family: "Overpass Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-style: normal;
+    font-size: 75px;
+}
+
+nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#play {
+    transform: rotate(-5deg);
+    transition: 1s;
+}
+
+#play h1 {
+    transition: 1s;
+    text-decoration: none;
+}
+
+#play:hover {
+    transform: rotate(5deg);
+    cursor:pointer;
+}
+
+#play h1:hover {
+    font-size: 95px;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+#howTo {
+    transform: rotate(-5deg);
+    transition: 1s;
+}
+
+#howTo:hover {
+    transform: rotate(5deg);
+    cursor:pointer;
+}
+
+#howTo h1 {
+    transition: 1s;
+    text-decoration: none;
+}
+
+#howTo h1:hover {
+    font-size: 95px;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+#credits {
+    transform: rotate(-5deg);
+    transition: 1s;
+}
+
+#credits:hover {
+    transform: rotate(5deg);
+    cursor:pointer;
+}
+
+#credits h1 {
+    transition: 1s;
+    text-decoration: none;
+}
+
+#credits h1:hover {
+    font-size: 95px;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+#rightPanel {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#rightPanel span #title {
+    font-size: 85px;
+    color:red;
+    transform:rotate(5deg);
+    transition:1s;
+}
+#rightPanel span #title:hover {
+    font-size: 90px;
+    cursor:default;
+}
+
+#rightPanel span #By {
+    font-size: 35px;
+    color:white;
+    transition:1s;
+    cursor:default;
+}
+#rightPanel span #By:hover {
+    font-size: 45px;
+}
+#titleSpan {
+    justify-content: center;
+    align-items:center;
+}
+
+.nosifer-regular {
+    font-family: "Nosifer", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.indie-flower-regular {
+    font-family: "Indie Flower", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
