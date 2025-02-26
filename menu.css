@@ -108,15 +108,16 @@ nav {
     font-size: 90px;
     cursor:default;
 }
-
+#rightPanel span {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
 #rightPanel span #By {
     font-size: 35px;
     color:white;
     transition:1s;
     cursor:default;
-}
-#rightPanel span #By:hover {
-    font-size: 45px;
 }
 #titleSpan {
     justify-content: center;
